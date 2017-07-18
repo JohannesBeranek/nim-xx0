@@ -25,6 +25,10 @@ TEST_INFO   := test.info
 
 # ----- Rules
 
+# Default rule
+.PHONY: default
+default: run
+
 # Binaries
 $(BIN_DIR):
 	mkdir -p $@
