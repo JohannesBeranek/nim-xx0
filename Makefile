@@ -73,3 +73,7 @@ clean-test-info:
 .PHONY: clean-coverage
 clean-coverage:
 	rm -rf $(COVERAGE_DIR)
+
+.PHONY: install-dev-deps
+install-dev-deps:
+	nimble install sdl2 strfmt
