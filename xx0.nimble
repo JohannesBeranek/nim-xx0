@@ -11,8 +11,9 @@ skipDirs = @["tests"]
 # Deps
 
 requires "nim >= 0.17.0"
-requires "frag"
 requires "strfmt"
+requires "sdl2"
+requires "opengl"
 
 # Binaries
 bin = @["xx0"]

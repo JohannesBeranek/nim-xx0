@@ -2,7 +2,7 @@
 STRIP       := gstrip
 
 # Flags
-BUILD_FLAGS := --gc:none -d:release --opt:size \
+BUILD_FLAGS := --threads:on -d:release --opt:size \
   --passC:-ffunction-sections --passC:-fdata-sections \
   --passL:-Wl
 
