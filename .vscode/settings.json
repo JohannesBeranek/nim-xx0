@@ -1,0 +1,6 @@
+// Platzieren Sie Ihre Einstellungen in dieser Datei, um Standard- und Benutzereinstellungen zu überschreiben.
+{
+	"editor.detectIndentation": true,
+	"editor.insertSpaces": false,
+	"editor.autoIndent": true
+}

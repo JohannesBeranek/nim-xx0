@@ -1,11 +1,13 @@
 # nim cache
 /nimcache/
+/tests/nimcache/
 
 # code coverage dir
 /coverage/
 
 # lcov info for coverage
-/*.info
+/tests/*.info
 
 # executables dir
 /bin/
+

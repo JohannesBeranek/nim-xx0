@@ -12,15 +12,16 @@ TEST_BUILD_FLAGS := --debugger:native --passC:--coverage --passL:--coverage
 PROJECT_ROOT:= $(dir $(realpath $(firstword $(MAKEFILE_LIST))))
 
 BIN_DIR     := $(PROJECT_ROOT)bin
+TESTS_DIR   := $(PROJECT_ROOT)tests
 COVERAGE_DIR:= coverage
 
 # Files
-MAIN_NIM    := main.nim
-MAIN_BIN    := $(BIN_DIR)/main
-MAIN_INFO   := main.info
-TEST_NIM    := test.nim
-TEST_BIN    := $(BIN_DIR)/test
-TEST_INFO   := test.info
+MAIN_NIM    := xx0.nim
+MAIN_BIN    := $(BIN_DIR)/xx0
+MAIN_INFO   := xx0.info
+TEST_NIM    := $(TESTS_DIR)/tests.nim
+TEST_BIN    := $(BIN_DIR)/tests
+TEST_INFO   := $(TESTS_DIR)/tests.info
 
 
 # ----- Rules
